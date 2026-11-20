@@ -30,3 +30,9 @@ if __name__ == "__main__":
     add_to_cart(sample_cart, {"id": 1, "name": "Notebook", "price": 50.0}, 2)
     add_to_cart(sample_cart, {"id": 2, "name": "Pen", "price": 10.0})
     display_cart(sample_cart)
+    def remove_from_cart(cart, product_id):
+    """Remove a product from the cart."""
+    return [
+        item for item in cart
+        if item["product"]["id"] != product_id
+    ]
