@@ -17,3 +17,9 @@ def list_products():
 
 if __name__ == "__main__":
     list_products()
+def search_product(keyword):
+    """Search products by name."""
+    return [
+        product for product in PRODUCTS
+        if keyword.lower() in product["name"].lower()
+    ]
