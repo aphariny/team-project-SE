@@ -1,5 +1,5 @@
 # Team Project – Online Shopping Modules
-Modules: Login, Catalog
+Modules: Login, Catalog, Cart
 A small Python demonstration project organized using GitHub's feature-branch workflow.
 
 ## Project modules
