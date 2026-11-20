@@ -15,3 +15,5 @@ def login(username: str, password: str) -> str:
 if __name__ == "__main__":
     print(login("admin", "admin123"))
     print(login("student", "wrong"))
+def welcome_message():
+    return "Welcome to Online Shopping System!"
